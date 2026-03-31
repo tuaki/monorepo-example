@@ -20,3 +20,10 @@ bun run dev:frontend2
 bun run build
 ```
 - The build outputs will be located in `apps/frontend1/dist` and `apps/frontend2/dist`.
+
+## Linting & Type Checking
+
+```bash
+bun types
+bun lint
+```
