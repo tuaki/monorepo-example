@@ -1,0 +1,10 @@
+{
+    "extends": "./tsconfig.options.json",
+    "files": [],
+    "references": [
+        { "path": "./apps/frontend1" },
+        { "path": "./apps/frontend2" },
+        { "path": "./packages/components" },
+        { "path": "./packages/env" },
+    ],
+}

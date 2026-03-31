@@ -1,0 +1,4 @@
+@import '../../../../packages/components/src/styles';
+
+/* Manually register sources for scanning. */
+@source '../../../../packages/components/src/**/*.{js,ts,jsx,tsx}';

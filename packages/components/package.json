@@ -1,0 +1,9 @@
+{
+    "name": "@monorepo-example/components",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}

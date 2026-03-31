@@ -1,0 +1,36 @@
+{
+    "extends": "../../tsconfig.options.json",
+    "compilerOptions": {
+        /* Monorepo setup */
+        "outDir": "./dist",
+        "noEmit": true,
+
+        /* Features */
+        "lib": [
+            "DOM",
+            "DOM.iterable",
+            "ESNext",
+        ],
+        "allowJs": true,
+        "jsx": "react-jsx",
+        "resolveJsonModule": true,
+
+        "baseUrl": ".",
+        "paths": {
+            ":frontend2/*": [ "./src/*" ],
+            ":components/*": [ "../../packages/components/src/*" ],
+            ":env": [ "../../packages/env/env.ts" ],
+        },
+    },
+    "include": [
+        "src",
+        "*.config.ts",
+        // See https://github.com/TypeStrong/ts-loader/issues/905 (it's marked as closed but it's still an issue).
+        "./src/**/*.json",
+    ],
+    "references": [ {
+        "path": "../../packages/components",
+    }, {
+        "path": "../../packages/env",
+    } ],
+}

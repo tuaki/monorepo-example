@@ -1,0 +1,5 @@
+/* The current working directory will be used as a base for scanning classes. This should be the directory in which we build the app. */
+@import 'tailwindcss';
+
+/* This makes the dark mode work by class, not by `prefers-color-scheme`. */
+@custom-variant dark (&:where(.dark, .dark *));

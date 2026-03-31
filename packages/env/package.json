@@ -1,0 +1,8 @@
+{
+    "name": "@monorepo-example/env",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+        "@t3-oss/env-core": "^0.13.10"
+    }
+}

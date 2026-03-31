@@ -1,0 +1,16 @@
+{
+    "name": "@monorepo-example/frontend1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "bunx --bun vite --configLoader native",
+        "build": "bunx --bun vite build --configLoader native"
+    },
+    "dependencies": {
+        "@tailwindcss/vite": "^4.1.13",
+        "@vitejs/plugin-react": "^5.0.3",
+        "vite-plugin-html": "^3.2.2"
+    },
+    "devDependencies": {
+    }
+}
